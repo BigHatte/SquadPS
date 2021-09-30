@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subnetName": {
+            "value": "VirtualMachines"
+        },
+        "virtualNetworkName": {
+            "value": "Kunden-VMs-vnet"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1ms"
+        },
+        "osDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "adminUsername": {
+            "value": "LocalAdmin"
+        },
+        "adminPassword": {
+            "value": "S3c.r3P@$$w0rd"
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "18:00"
+        },
+        "autoShutdownTimeZone": {
+            "value": "W. Europe Standard Time"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownNotificationLocale": {
+            "value": "de"
+        },
+        "autoShutdownNotificationEmail": {
+            "value": "robert.tholen@cgi.com"
+        },
+        "patchMode": {
+            "value": "AutomaticByOS"
+        },
+        "enableHotpatching": {
+            "value": false
+        }
+    }
+}
